@@ -1,3 +1,5 @@
+#! /bin/bash
+
 # Restore key repeat speed
 defaults write NSGlobalDomain KeyRepeat -int 1
 defaults write NSGlobalDomain InitialKeyRepeat -int 1
