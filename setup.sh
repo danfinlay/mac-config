@@ -11,3 +11,5 @@ defaults write com.apple.Dock autohide-delay -int 0
 # Reset dock
 killall Dock
 
+# Create ~/iCloud symlink
+ln -s ~/Library/Mobile\ Documents/com\~apple\~CloudDocs/ ~/iCloud
