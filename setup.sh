@@ -13,3 +13,12 @@ killall Dock
 
 # Create ~/iCloud symlink
 ln -s ~/Library/Mobile\ Documents/com\~apple\~CloudDocs/ ~/iCloud
+
+# Install Homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# Install Markdown Previewer
+brew cask install qlmarkdown
+
+# Install the Node Version Manager
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash
